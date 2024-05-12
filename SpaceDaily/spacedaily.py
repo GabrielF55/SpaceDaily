@@ -60,7 +60,6 @@ class ProcurarTarefas:
         return [tarefa for tarefa in self.tarefas if tarefa.prioridade == prioridade]
 
     def filtrar_por_prazo(self, prazo):
-        
         return [tarefa for tarefa in self.tarefas if tarefa.prazo <= prazo]
 
 #Aqui separei todos os testes necessários.
