@@ -1,7 +1,7 @@
-#Importando biblioteca para uso de lista prioritária
+#Importando biblioteca para uso de lista prioritária.
 import heapq
 
-#Criando a classe Tarefa, envolvendo os atributos titulo, descricao, prioridade e prazo
+#Criando a classe Tarefa, envolvendo os atributos titulo, descricao, prioridade e prazo.
 class Tarefa:
     def _init_(self, titulo, descricao, prioridade, prazo=None):
         self.titulo = titulo
@@ -12,6 +12,7 @@ class Tarefa:
     def _lt_(self, outra):
         return self.prioridade < outra.prioridade
 
+#Classe envolvendo a prioridade da lista.
 class ListaPrioridade:
     def _init_(self):
         self.tarefas = []
@@ -25,6 +26,7 @@ class ListaPrioridade:
     def get_tarefas(self):
         return self.tarefas
 
+#Classe envolvendo a parte de gerenciamento.
 class GerenciarTarefas:
     def _init_(self):
         self.tarefas_pendentes = []
@@ -43,6 +45,7 @@ class GerenciarTarefas:
     def get_tarefas_concluidas(self):
         return self.tarefas_concluidas
 
+#Essa classe serve para procurar, dentre as tarefas, a pesquisa desejada.
 class ProcurarTarefas:
     def _init_(self, tarefas):
         self.tarefas = tarefas
@@ -57,7 +60,7 @@ class ProcurarTarefas:
         return [tarefa for tarefa in self.tarefas if tarefa.prioridade == prioridade]
 
     def filtrar_por_prazo(self, prazo):
-        # Assuming deadline is a datetime object
+        
         return [tarefa for tarefa in self.tarefas if tarefa.prazo <= prazo]
 
 #Aqui separei todos os testes necessários.
