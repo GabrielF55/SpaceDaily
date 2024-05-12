@@ -1,5 +1,7 @@
+#Importando biblioteca para uso de lista prioritária
 import heapq
 
+#Criando a classe Tarefa, envolvendo os atributos titulo, descricao, prioridade e prazo
 class Tarefa:
     def _init_(self, titulo, descricao, prioridade, prazo=None):
         self.titulo = titulo
