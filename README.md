@@ -1,12 +1,14 @@
 # SpaceDaily
-Códigos SpaceDaily
 
-Nesse repositório ficarão arquivadas todas as atualizações quanto ao SpaceDaily, trabalho da matéria Estrutura de Dados da faculdade UNIFIP, o código envolve atualmente o uso de Python em Orientação a Objetos.
+Este repositório contém o projeto SpaceDaily, desenvolvido como parte do trabalho da disciplina de Estrutura de Dados da UNIFIP. O SpaceDaily é um gerenciador de tarefas implementado em Python, utilizando conceitos de Orientação a Objetos.
 
-O trabalho envolve um gerenciador de tarefas, proposto por uma atividade prática pelo Professor José Trajano Mendes Neto, Bacharel em Computação e Especialista em Informática na Saúde. Os alunos, dita equipe de  programadores do projeto em si, são: 
+## Equipe de Desenvolvimento
+- Gabriel França
+- Galvão Segundo
+- Raniere Pimentel
+- Lívia Vitória
 
-Gabriel França, Galvão Segundo, Raniere Pimentel e Lívia Vitória.
-
-Atualmente o projeto contém:
-
-- Código da ideia base do projeto, envolvendo lista prioritária.
+## Funcionalidades Atuais
+O SpaceDaily oferece as seguintes funcionalidades:
+- **Lista de Prioridades**: As tarefas são gerenciadas em uma lista prioritária, permitindo uma fácil visualização das prioridades.
+- **Interatividade Via Linha de Comando**: A interação com o SpaceDaily é realizada através de um menu interativo, facilitando a adição, visualização e gerenciamento das tarefas.
